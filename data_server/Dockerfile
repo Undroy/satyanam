@@ -14,7 +14,6 @@ RUN pip install Flask-Cors
 # start app
 CMD [ "python", "pythontest.py" ]
 
-# Docker Run
+# Docker Build and  Run
+# docker build -t pythontest .
 # docker run -it -v ${PWD}:/app -p 5000:5000 --rm pythontest [Remove -it to run via container]
-
-# docker run --name pythontest -v ${PWD/app}:/app -p 5000:5000 pythontest

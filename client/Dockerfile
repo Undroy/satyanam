@@ -15,3 +15,7 @@ RUN npm install -g @vue/cli
 
 # start app
 CMD ["npm", "run", "serve"]
+
+# Docker Build and Run
+# Docker build -t satyanam
+# docker run -it -v ${PWD}:/app -v /app/node_modules -p 8080:8080 --rm satyanam [Remove -it to run via container]
