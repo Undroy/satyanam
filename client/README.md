@@ -1,9 +1,5 @@
-# satyanam
-
-## Project setup
-```
-npm install
-```
+# Satyanam Society Of Human Development 
+# Web Api Client Interface (using Vue.js)
 
 ### Compiles and hot-reloads for development
 ```
@@ -24,6 +20,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
